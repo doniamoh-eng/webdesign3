@@ -1,0 +1,293 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* home css */
+.home{
+    min-height: 100%;
+    background-image: url(./images/drew-coffman-1872.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.nav-bar{
+    padding: 20px;
+}
+.nav-bar img {
+    float: left;
+    width: 15%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav-bar ul{
+    float: right;
+    list-style-type: none;
+}
+.nav-bar li{
+    float: left;
+    margin: 0 10px;
+    font-size: 19px;
+}
+.clear {
+    clear: both;
+}
+.home-contant {
+    margin: auto;
+    margin-top: 13%;
+    max-width: 55%;
+    text-align: center;
+    color: white;
+}
+.home-contant h1{
+    font-size: 70px;
+    font-weight: 400;
+    margin: 5px ;
+}
+.home-contant p{
+    font-size: 24px;
+    margin: 20px 0px;
+}
+.home-contant .buttons{
+    padding-bottom: 15%;
+}
+.home-contant button{
+    width: 130px;
+    border:1px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 5px;
+    border-radius: 3px;
+}
+.home-contant .btn1{
+    background-color: #8e7754;
+    border-color: #8e7754;
+}
+
+
+/* about us css  */
+.about-us{
+    margin: 80px 0px;
+}
+.about-us .container .aboutus-img {
+    display: inline-block ;
+    width: 45%;
+    margin-right: 2.5%;
+}
+.about-us .container .aboutus-contact{
+    display: inline-block ;
+    width: 49%;
+    margin: 3% 0% 3% 2.5%;
+    vertical-align: top ;
+}
+img{
+    width: 100%;
+}
+.about-us .aboutus-contact .icon div{
+    display: inline-block;
+}
+.about-us .aboutus-contact .icon .icon-img{
+    width: 40px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+.about-us .aboutus-contact h2{
+    font-size: 35px;
+    font-weight: 200;
+    color: #303030;
+}
+.about-us .aboutus-contact p{
+    color: #686868;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+.about-us .aboutus-contact .icon-disc p{
+    margin: 0px 10px;
+}
+.about-us .aboutus-contact .icon-disc{
+    vertical-align: top;
+    padding-top: 2%;
+}
+.about-us .aboutus-contact .icon {
+    margin-bottom: 20px;
+}
+
+/* our location css */
+.location{
+    padding: 80px 0px;
+    background-color: #f8f8f8;
+}
+.location .location-contant{
+    display: inline-block ;
+    width: 49%;
+    vertical-align: top;
+    margin: 5% 2.5% 5% 0%;
+}
+.location .location-img{
+    display: inline-block ;
+    width: 45%;
+    margin-left: 2.5%;
+}
+.location .location-contant h2{
+    font-size: 35px;
+    font-weight: 200;
+    color: #303030;
+}
+.location .location-contant p{
+    color: #686868;
+    font-size: 17px;
+    line-height: 35px;
+}
+/* our baking css */
+.baking-items{
+    margin: 80px 0px;
+}
+.baking-items .items-title{
+    text-align: center;
+}
+.baking-items .items-title h2{
+    font-size: 35px;
+    font-weight: 200;
+    color: #303030;
+}
+.baking-items p{
+    color: #686868;
+    font-size: 17px;
+    line-height: 35px;
+}
+.baking-items .item-contant{
+    float: left; 
+    width: 30%;
+    text-align: center;
+    margin: 1.5%;
+}
+.baking-items .item-contant h3{
+    font-size: 22px;
+    font-weight: 200;
+    color: #303030;
+}
+/* contact information css */
+.contact-info{
+    background-color: #f8f8f8;
+    padding: 80px 0px;
+}
+.contact-info .info-contant {
+    float: left;
+    width: 49%;
+}
+.contact-info .info-contant .icon div{
+    float: left;
+}
+.contact-info .info-contant .icon-img{
+    width: 35px;
+    border: 1px solid #8e7754;
+    background-color: #8e7754;
+    border-radius: 50%;
+}
+.contact-info .info-contant h2{
+    font-size: 35px;
+    font-weight: 200;
+    color: #303030;
+}
+.contact-info p{
+    color: #686868;
+    font-size: 17px;
+    line-height: 35px;
+}
+.contact-info .icon .icon-contact p{
+    margin: 5px 10px;
+}
+.contact-info .icon{
+    padding-bottom: 65px;
+}
+.contact-info .info-map{
+    float: right;
+    width: 45%;
+}
+/* footer info */
+.footer-info{
+    padding: 25px 0px;
+    background-color: #403d38;
+    color: #969696;
+    font-size: 16px;
+    line-height: 30px;
+}
+.footer-info .container .f-main{
+    float: left;
+    width: 25%;
+}
+.footer-info .f-main ul li{
+    list-style-type: none;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.footer-info .contact-us ul{
+    background-image: url(./images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer-info .f-main img{
+    width: 6%;
+}
+.footer-info .contact-us .li{
+    float: left;
+}
+.footer-info .contact-us img{
+    width: 100%;
+}
+.footer-info .f-main h4{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+}
+.footer-info .why-us h4{
+    padding-left: 40px;
+}
+.footer-info .openning-hrs h4{
+    padding-left: 40px;
+}
+.footer-info .contact-us h4{
+    padding-left: 50px;
+}
+.footer-info .contact-us li .contact-icon{
+    float: left;
+    width: 10%;
+}
+.footer-info .contact-us li .contact-desc{
+    float: right;
+    width: 89%;
+}
+/* footer bottom css */
+.footer-buttom .footer{
+    background-color: #353330;
+    text-align: center;
+    padding: 50px 0px;
+    color: #777;
+}
+.footer-buttom .footer img{
+    width: 325px;
+}
+.footer-buttom .footer .icons .icon{
+    float: left;
+}
+.footer-buttom .icon img{
+    width: 100%;
+}
+.footer-buttom .icon{
+    width: 45px;
+    background-color: #484540;
+    border: 1px solid #484540;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.footer-buttom .icons{
+    width: 17%;
+    margin: auto;
+    padding-top: 10px;
+}
